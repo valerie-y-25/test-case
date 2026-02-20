@@ -1,8 +1,8 @@
-#UNIX Assignment
+# UNIX Assignment
 
-##Data Inspection
+## Data Inspection
 
-###Attributes of `fang_et_al_genotypes`
+### Attributes of `fang_et_al_genotypes`
 
 ```
 $ wc fang_et_al_genotypes.txt
@@ -21,7 +21,7 @@ By inspecting this file I learned that:
 * last line: I am cutting column 3 from every row since that is the Group, then piping it to sort to arrange alphabetically, then piping to uniq -c to count how many per group. I saw that there was 290 ZMMIL, 1256 ZMMLR, 27 ZMMMR (1573 total maize) and 900 ZMPBA, 41 ZMPIL,34 ZMPJA (975 total teosinte).
 
 
-###Attributes of `snp_position.txt`
+### Attributes of `snp_position.txt`
 
 ```
 $ wc snp_position.txt
@@ -38,9 +38,9 @@ By inspecting this file I learned that:
 * ASCII text
 
 
-##Data Processing
+## Data Processing
 
-###Maize Data
+### Maize Data
 
 EXTRACT
 ```
@@ -76,7 +76,7 @@ code
 Explain
 
 
-###Teosinte Data
+### Teosinte Data
 
 EXTRACT
 ```
